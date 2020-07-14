@@ -1,0 +1,32 @@
+name: teachable_ml
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite: ^1.0.5
+  percent_indicator: ^2.1.1+1
+  image_picker: ^0.6.7+4
+  dynamic_theme: ^1.0.1
+  flutter_launcher_icons: ^0.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path_android: "assets/icone.png"
+  image_path_ios: "assets/icone.png"
+  android: true 
+  ios: true 
+  adaptive_icon_background: "assets/bkg.png"
+  adaptive_icon_foreground: "assets/icone.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
